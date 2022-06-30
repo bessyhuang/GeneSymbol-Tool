@@ -1,0 +1,7 @@
+Website: https://www.ncbi.nlm.nih.gov/snp/
+
+Input:
+	rsID 或 (chr_name:chr_position: example 6:161111700)
+Output:
+	1. Gene 名稱 
+	2. 增加一欄到 excel
