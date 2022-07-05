@@ -1,7 +1,21 @@
 Website: https://www.ncbi.nlm.nih.gov/snp/
 
 Input:
-	rsID 或 (chr_name:chr_position: example 6:161111700)
+	* TXT FILE (Format 1)
+		* rsID				:	rs2843152
+		* chr_name			:	1
+		* chr_position			:	2245570
+		* effect_allele			:	G
+		* other_allele			:	C
+		* effect_weight			:	-2.76009e-02
+	
+	* TXT FILE (Format 2)
+		* rsID				:	rs646776
+		* effect_allele			:	T
+		* effect_weight			:	0.17395330712343798
+		* allelefrequency_effect	:	0.77
+		* locus_name			:	1p13.3 (SORT1)
+		* OR				:	1.19
+		
 Output:
-	1. Gene 名稱 
-	2. 增加一欄到 excel
+	1. 增加一欄 GeneName 到 TXT FILE
